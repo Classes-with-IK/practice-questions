@@ -1,6 +1,6 @@
 import { useState } from "react";
 
- function FixNumber() {
+ function Stop() {
   const [number, setNumber] = useState(0);
 
   function increaseNumber() {
@@ -36,4 +36,4 @@ import { useState } from "react";
   );
 }
 
-export default FixNumber;
+export default Stop

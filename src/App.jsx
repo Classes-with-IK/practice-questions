@@ -1,6 +1,12 @@
 import AddThree from './components/AddThree.jsx'
 import Fix from './components/Fix.jsx'
 import FixNumber from './components/FixNumber.jsx'
+import Stop from './components/Stop.jsx'
+
+
+
+
+
 function App() {
 
   return (
@@ -8,6 +14,7 @@ function App() {
       <AddThree />
       <Fix />
       <FixNumber />
+      <Stop />
     </>
   )
 }

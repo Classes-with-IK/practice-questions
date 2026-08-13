@@ -4,7 +4,7 @@ import FixNumber from './components/FixNumber.jsx'
 import Stop from './components/Stop.jsx'
 import Repeat from './components/Repeat.jsx'
 import Functional from './components/Functional.jsx'
-
+import Rewrite from './components/Rewrite.jsx'
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <Stop />
       <Repeat />
       <Functional />
+      <Rewrite />
     </>
   )
 }

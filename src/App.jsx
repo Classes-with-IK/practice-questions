@@ -6,11 +6,13 @@ import Repeat from './components/Repeat.jsx'
 import Functional from './components/Functional.jsx'
 import Rewrite from './components/Rewrite.jsx'
 import Counter from './components/Counter.jsx'
+import NewComponent from './components/NewComponent.jsx'
 
 function App() {
 
   return (
     <>
+    <NewComponent/>
       <AddThree />
       <Fix />
       <FixNumber />
